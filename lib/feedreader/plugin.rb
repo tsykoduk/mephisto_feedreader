@@ -1,10 +1,10 @@
 # $Id$
 module Mephisto::Plugins
-  class Feedreader < Mephisto::Plugin
-    author 'Mark Guzman'
-    version 'r$Rev$'.gsub( /(\$Rev:\s+)|(\s+\$)/, "" )
-    notes "Add liquid blocks displaying RSS feeds"
-    homepage "http://hasno.info/2006/11/11/mephisto-plugins"
+  class Feedreader < Mephisto::Plugins
+    #author 'Mark Guzman'
+    #version 'r$Rev$'.gsub( /(\$Rev:\s+)|(\s+\$)/, "" )
+    #notes "Add liquid blocks displaying RSS feeds"
+    #homepage "http://hasno.info/2006/11/11/mephisto-plugins"
     
     class Schema < ActiveRecord::Migration
       def self.install
